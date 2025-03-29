@@ -132,5 +132,6 @@ const init = function () {
   recipeView.addHandlerUpdateServings(controlServings);
   recipeView.addHandlerBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('Welcome to fokify by Devanshi');
 };
 init();
