@@ -1,26 +1,37 @@
 # Forkify Web Application
 
 ## High Level Description of Project
-A modern web application to search, view, and save your favorite recipes.
+Forkify is a modern web application that allows users to search, view, and save their favorite recipes. The application provides access to a vast collection of recipes sourced from the Forkify API.
 
 ## Live Demo
-[Demo](https://forkifybydevanshi.netlify.app/).
+Experience the live application: [Forkify by Devanshi](https://forkifybydevanshi.netlify.app/).
 
 ## Features
-- Search for thousands of recipes
-- View detailed recipe instructions
-- Save favorite recipes for easy access
-- User-friendly and responsive design
+- Recipe Search: Enter keywords to search for recipes from a database of over 1,000,000 recipes.
+- Detailed Recipe Information: View comprehensive details for each recipe, including ingredients, preparation time, and servings.
+- Adjustable Servings: Modify the number of servings to automatically adjust ingredient quantities.
+- Bookmarking: Save your favorite recipes for quick access later.
+- Recipe Upload: Contribute your own recipes to the application.
 
 ## Technologies Used
-- Frontend:HTML & SCSS
-- Framework: Vanilla JavaScript
+- Frontend:HTML, SCSS, Vanilla JavaScript​
+- Build Tools: Parcel (module bundler)
+- API: [Forkify API](https://forkify-api.herokuapp.com/v2)
 - Hosting: Netlify
+
+## Project Structure
+The project follows the Model-View-Controller (MVC) architecture:​
+
+    - Model: Handles data fetching and state management.​
+
+    - View: Manages the user interface and presentation logic.​
+
+    - Controller: Coordinates interactions between the model and the view.​
 
 
 ## Requirements
 - A modern web browser (Chrome, Firefox, Edge, Safari)
-- Node.js (Optional, if running a local server)
+- Node.js and npm installed on your system.
 
 ## Installation
 
@@ -31,5 +42,11 @@ git clone https://github.com/your-username/forkify-app.git
 # Navigate to the project folder
 cd forkify-app
 
-# Use VScode terminal
-npm run build
+#Install Dependencies
+npm install
+
+# Start the Development Server
+npm start
+```
+## Acknowledgements
+[Jonas Schmedtmann](https://github.com/jonasschmedtmann) for the original Forkify concept and API.
