@@ -14,10 +14,10 @@ Experience the live application: [Forkify by Devanshi](https://forkifybydevanshi
 - Recipe Upload: Contribute your own recipes to the application.
 
 ## Technologies Used
-- Frontend:HTML, SCSS, Vanilla JavaScript​
-- Build Tools: Parcel (module bundler)
-- API: [Forkify API](https://forkify-api.herokuapp.com/v2)
-- Hosting: Netlify
+- **Frontend:** HTML, SCSS, Vanilla JavaScript​
+- **Build Tools:** Parcel (module bundler)
+- **API:** [Forkify API](https://forkify-api.herokuapp.com/v2)
+- **Hosting:** Netlify
 
 ## Project Structure
 The project follows the Model-View-Controller (MVC) architecture:​
